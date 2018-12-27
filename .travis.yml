@@ -12,7 +12,7 @@ deploy:
   provider: elasticbeanstalk
   region: "eu-central-1"
   app: "docker-travis-test"
-  env: "Docker-env"
+  env: "DokcerTravisTest-env"
   bucket_name: "elasticbeanstalk-eu-central-1-119369441851"
   bucket_path: "docker-travis-test"
   on:
